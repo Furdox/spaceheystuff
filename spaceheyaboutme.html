@@ -1,7 +1,6 @@
 <h1>WIP</h1>
 <h2 style="font-size: 20px">
-    Make sure to have autoplay audio & video allowed for music! ^w^ CHROME WILL
-    NOT WORK, also tested on Firefox (my main browser)
+    Make sure to have autoplay audio & video allowed for music! ^w^ <div class="strike">CHROME WILL NOT WORK</div> fixed :3, also tested on Firefox (my main browser)
 </h2>
 ---
 <p>the opposite of emo</p>
@@ -598,6 +597,10 @@
         color: cyan;
     }
 
+    .friends .inner:nth-child(1) p {
+        font-size: 18px;
+    }
+
     .profile .friends .heading {
         border-style: outset;
         border-width: 2px;
@@ -612,14 +615,6 @@
         padding-right: 50px;
     }
 
-    div.friends:nth-of-type(3)
-        > div.inner:nth-child(2)
-        > p:first-child
-        > b:first-child {
-        font-family: Rubik;
-        color: white;
-    }
-
     .profile .friends .inner {
         background: transparent;
     }
@@ -631,7 +626,6 @@
 
     #comments > div.inner:nth-child(2) > p:first-child > b:first-child {
         font-family: Rubik;
-        color: wheat;
     }
 
     .comments-table td {
@@ -676,5 +670,8 @@
 
     .comments-table p b::after {
         content : "";
+    }
+    .strike {
+        text-decoration: line-through;
     }
 </style>

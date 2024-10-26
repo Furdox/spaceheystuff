@@ -1,0 +1,15 @@
+* {
+    font-family: Rubik;
+}
+#profile--name span::after {
+    content: " •w•     |     ^w^   >//w//<   OwO   UwU   -w-";
+}
+body {
+    background-color: #003300;
+}
+:root {
+    --background: 0, 51, 0;
+}
+body > .container {
+
+}
